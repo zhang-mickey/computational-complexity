@@ -8,3 +8,10 @@ NTIME(t(n)) is the set of all decision problems that can be solved by a nondeter
 
 # Diagonalization
 Diagonalization refers to a class of techniques used in complexity theory to separate complexity classes.
+
+# cook
+All NP-hardness results ultimately derive from the Cook-Levin theorem
+
+# PCP
+The PCP Theorem implies that for many NP optimization problems, computing near-optimal solutions is no easier than computing exact solutions.
+By showing that even computing approximate solutions to many of these problems is NP-hard, the PCP Theorem extends the practical importance of the theory of NP-completeness
