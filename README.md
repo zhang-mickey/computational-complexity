@@ -39,3 +39,10 @@ expected running time
 #  PCP（probabilistically checkable proofs）
 The PCP Theorem implies that for many NP optimization problems, computing near-optimal solutions is no easier than computing exact solutions.
 By showing that even computing approximate solutions to many of these problems is NP-hard, the PCP Theorem extends the practical importance of the theory of NP-completeness。
+
+
+The statement of thePCP TheoremallowsverifiersfordifferentNP languagestouse
+a different number of query bits (so long as this number is constant). However, since
+everyNPlanguageispolynomial-timereducibletoSAT,allthesenumberscanbeupper
+boundedbyauniversalconstant,namely,thenumberofquerybitsrequiredbyaverifier
+forSAT.
