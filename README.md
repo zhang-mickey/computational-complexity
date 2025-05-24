@@ -46,3 +46,12 @@ a different number of query bits (so long as this number is constant). However, 
 everyNPlanguageispolynomial-timereducibletoSAT,allthesenumberscanbeupper
 boundedbyauniversalconstant,namely,thenumberofquerybitsrequiredbyaverifier
 forSAT.
+
+# Exponential Time Hypothesis (ETH)
+![image](https://github.com/user-attachments/assets/5254d3ba-ce8e-41c0-bbb2-1d5c049689a0)
+
+
+# variable forgetting  AKA variable elimination
+Forgetting is removing variables from a logical formula while preserving the constraints on the other variables.
+
+## universal elimination
