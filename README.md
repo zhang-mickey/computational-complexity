@@ -1,4 +1,15 @@
 # computational-complexity
+# P/poly
+P poly is the class of all languages that can be decided in polynomial time with poly bits of advice.
+
+## P/poly contains P P ⊆ P/poly.
+
+# polynomial hierarchy
+![image](https://github.com/user-attachments/assets/0c9a2e1f-00d8-4896-baf9-0f170f82d5d4)
+
+# Karp-Lipton NP⊆P/poly，then PH=Σ2p
+​
+ 。
 
 # NTM
 A nondeterministic Turing machine is like a deterministic Turing machines but with two transition functions. 
@@ -43,15 +54,21 @@ By showing that even computing approximate solutions to many of these problems i
 
 The statement of thePCP TheoremallowsverifiersfordifferentNP languagestouse
 a different number of query bits (so long as this number is constant). However, since
-everyNPlanguageispolynomial-timereducibletoSAT,allthesenumberscanbeupper
+every NP languageis polynomial-timereducibletoSAT,allthesenumberscanbeupper
 boundedbyauniversalconstant,namely,thenumberofquerybitsrequiredbyaverifier
-forSAT.
+for SAT.
 
 # Exponential Time Hypothesis (ETH)
 ![image](https://github.com/user-attachments/assets/5254d3ba-ce8e-41c0-bbb2-1d5c049689a0)
 
+The ETH implies that there is no 2o(n)-time algorithm for 3-SAT:
+![image](https://github.com/user-attachments/assets/0fe65df7-ea34-45b7-80dc-a097343ce4f3)
 
 # variable forgetting  AKA variable elimination
 Forgetting is removing variables from a logical formula while preserving the constraints on the other variables.
+![image](https://github.com/user-attachments/assets/98b8dd2a-cba7-43d7-89af-360755b22770)
+![image](https://github.com/user-attachments/assets/cba674b9-e73a-4fd9-ac7e-dcfb6c6847e8)
+if Σ is a conjunctive normal form (CNF) formula then Forget(Σ,p) is not a CNF formula any longer.Though one can transform a CNF formula into an equivalent disjunctive normal form (DNF) formula, the translation will bring about exponential explosion if no fresh atoms are allowed.
+### universal forgetting  existential forgetting
 
-## universal elimination
+## forgetting is at the second level of the polynomial hierarchy？
